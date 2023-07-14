@@ -51,13 +51,6 @@
         style="height: 100%;padding: 0 8px;"
         class="right-menu-item hover-effect"
       >
-        <a
-          :href="helpLink"
-          target="_blank"
-          style="display: flex;height: 100%;width: 100%;justify-content: center;align-items: center;"
-        >
-          <svg-icon icon-class="docs" />
-        </a>
       </div>
 
       <el-dropdown

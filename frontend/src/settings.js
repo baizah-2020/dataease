@@ -2,7 +2,7 @@ module.exports = {
   TokenKey: 'Authorization',
   RefreshTokenKey: 'refreshauthorization',
   LinkTokenKey: 'LINK-PWD-TOKEN',
-  title: 'DataEase',
+  title: '云数BI平台',
   /* for sso */
   IdTokenKey: 'IdToken',
   AccessTokenKey: 'AccessToken',

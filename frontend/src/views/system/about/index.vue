@@ -73,23 +73,6 @@
           layout-align="space-between center"
           class="lic_rooter"
         >
-          <el-upload
-            action=""
-            :multiple="false"
-            :show-file-list="false"
-            :file-list="fileList"
-            accept=".key"
-            name="file"
-            :before-upload="beforeUpload"
-          >
-            <a class="md-primary pointer">{{ $t('about.update_license') }}</a>
-
-          </el-upload>
-
-          <a
-            class="md-primary pointer"
-            @click="support"
-          >{{ $t('about.support') }}</a>
 
         </div>
       </div>
@@ -189,7 +172,7 @@ export default {
       })
     },
     support() {
-      const url = 'https://support.fit2cloud.com/'
+      const url = 'https://#/'
       window.open(url, '_blank')
     },
     beforeUpload(file) {
